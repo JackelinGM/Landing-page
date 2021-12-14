@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Adaptability } from './component/Adaptability';
+import { Banner } from './component/Banner';
+import { Carousel } from './component/Carousel';
+import { Coments } from './component/Coments';
+import { FooterDesk } from './component/FooterDesk';
+import { MentalWellness } from './component/MentalWellness';
+import { Navbar } from './component/Navbar';
+import { Nutrition } from './component/Nutrition';
+import { OurPillars } from './component/OurPillars';
+import { Sports } from './component/Sports';
+import { SportsAccessories } from './component/SportsAccessories';
+import { VarietySports } from './component/VarietySports';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar />
+    <Banner />
+    <OurPillars />
+    <Adaptability />
+    <VarietySports />
+    <Sports />
+    <Nutrition />
+    <MentalWellness />
+    <SportsAccessories />
+    <Coments />
+    <Carousel />
+    <FooterDesk />
     </div>
   );
 }
