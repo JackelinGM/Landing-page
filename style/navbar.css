@@ -1,0 +1,49 @@
+.button-login{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid turquoise !important;
+    color: turquoise;
+    margin-left: 11px;
+    width: 153px;
+    height: 43px;
+    margin-top: 10px;
+    border-radius: 2px;
+    padding: 18px;
+}
+
+.button-register{
+    background-color: turquoise !important;
+    border: 1px solid turquoise;
+    align-items:center;
+    color: white;
+    margin-left: 20px; 
+    width: 133px;
+    margin-right: 5px;
+    margin-top: 10px;
+    height: 44px;
+    border-radius: 2px;
+}
+
+.nav-link{
+    font-size: 15px;
+    margin-left: 8px;
+    margin-top: 11px;
+    margin-right: 17px;
+    padding: 7px 12px;
+    
+}
+
+/* .nav-item a:hover{
+    color: #09dae5;
+    border-color: #09dae5;
+    outline: none;
+    line-height: 75px;
+} */
+
+.nav-logo{
+    margin-top: -5px;
+    height: 29px;
+    margin-left: 92px;
+    width: 152px;
+}
