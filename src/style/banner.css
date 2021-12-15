@@ -91,3 +91,15 @@ font-family: 'Libre Franklin', sans-serif;
 .button-general {
   margin-top: 16px;
 }
+
+@media (min-width: 360px) and (max-width: 560px) {
+
+  .button-individual{
+    margin-top: 32px;
+    margin-left: 51px;
+  }
+  .button-corporate{
+    margin-right: 0;
+    margin-left: 52px;
+  }
+}

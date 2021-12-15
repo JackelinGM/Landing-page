@@ -39,8 +39,10 @@ const FooterDesk = () => {
           </div>
         </div>
         <hr className="my-3" />
-        <p>©2021 Fitness Pass® Todos los derechos reservados.</p>
+        <div className="copyrigth">    
+        <p> ©2021 Fitness Pass® Todos los derechos reservados.</p>
         <p>contacto@fitnesspass.pe</p>
+        </div>
       </footer>
     </div>
   );

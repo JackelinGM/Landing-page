@@ -13,3 +13,21 @@
     color: white;
 } 
 
+.copyrigth{
+  display: flex;
+  justify-content: space-around;
+}
+
+.h1{
+  font-family: "Libre Franklin";
+}
+
+h5{
+  font-family: "Libre Franklin";
+}
+
+@media (min-width: 360px) and (max-width: 560px) {
+  .copyrigth{
+    flex-direction: column;
+  }
+}
