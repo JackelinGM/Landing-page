@@ -23,4 +23,4 @@ La landing page, se agrego a media queries respetando las medidas. Se puede visu
 
 ## 3. Realizado por:
 
-[Jackelin Melisa](https://github.com/JackelinGM)
+[Jackelin Melissa](https://github.com/JackelinGM)
