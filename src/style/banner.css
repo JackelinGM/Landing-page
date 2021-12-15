@@ -7,27 +7,28 @@
   background-size: cover;
 }
 .content-banner {
-  max-width: 400px;
-  text-align: right;
-  max-width: 1173px;
+    max-width: 1173px;
     text-align: initial;
     margin-top: 34px;
-    margin-left: -49px;
-    height: -25px;
+    margin-left: 23px;
+    
     width: 301px;
-    font-weight: 89px;
+    
     
     font-style: normal;
 }
 .title {
-  text-align: left;
-  font-size: 40px;
-  line-height: 30px;
-  width: 95%;
-  margin: 70px;
+    text-align: left;
+    font-size: 43px;
+    line-height: 55px;
+    width: 102%;
+    
+    margin-top: 116px;
+    font-family: 'Libre Franklin';
 }
+
 .bold {
-  font-weight: 700 !important;
+  font-weight: 800 !important;
 }
 /* .subtitle{
 font-size: 1rem;
@@ -38,40 +39,45 @@ font-family: 'Libre Franklin', sans-serif;
 .subtitle-banner {
     font-style: normal;
     font-weight: 300;
-    font-size: 64px;
+    /* font-size: 64px; */
     line-height: 66px;
+    font-family:'Libre Franklin';
 }
 
 .content-subtitle{
     
-    margin-left: 77px;
-    margin-right: -451px;
-    font-size: 17px;
+  
+  margin-right: -269px;
+  font-size: 16px;
+  font-family: 'Libre Franklin';
+  margin-top: 33px;
 }
 
 .subtitle-content{
-    margin-left: 74px;
+    
     margin-top: -9px;
     font-size: 15px;
     margin-right: -261px;
     width: 453px;
+    font-family:'Libre Franklin';
 }
 
 .button-individual{
-    background: #09dae5;
-    margin-left: 72px;
-    width: 199px;
-    margin-top: 15px;
-    height: 47px;
-    color: white;
-    font-weight: bold;
-    border-radius: 3px;
-    border: 5px;
+  background: #09dae5;
+  width: 199px;
+  margin-top: 15px;
+  height: 47px;
+  color: white;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 5px;
+  margin-right: 81px;
 }
+
 
 .button-corporate{
     background: #09dae5;
-    margin-left: 102px;
+    margin-left: 20px;
     width: 199px;
     margin-top: 15px;
     height: 47px;
@@ -82,3 +88,11 @@ font-family: 'Libre Franklin', sans-serif;
     border: 5px;
 }
 
+.hr{
+  width: 78vh;
+  position: relative;
+}
+
+.button-general{
+  margin-top: 16px;
+}

@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     background-color: white;
-    border: 1px solid turquoise !important;
-    color: turquoise;
+    border: 1px solid #09dae5 !important;
+    color: #09dae5;
     margin-left: 11px;
     width: 153px;
     height: 43px;
@@ -13,8 +13,8 @@
 }
 
 .button-register{
-    background-color: turquoise !important;
-    border: 1px solid turquoise;
+    background-color: #09dae5 !important;
+    border: 1px solid #09dae5;
     align-items:center;
     color: white;
     margin-left: 20px; 
@@ -25,7 +25,7 @@
     border-radius: 2px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 15px;
     margin-left: 8px;
     margin-top: 11px;
@@ -34,16 +34,26 @@
     
 }
 
-/* .nav-item a:hover{
-    color: #09dae5;
-    border-color: #09dae5;
-    outline: none;
-    line-height: 75px;
-} */
 
 .nav-logo{
     margin-top: -5px;
     height: 29px;
     margin-left: 92px;
     width: 152px;
+}
+
+
+@media (min-width: 360px) and (max-width: 560px) {
+    .nav-logo{
+    margin-left: 0;
+    }
+    .button-login, .button-register{
+        width: auto;
+        margin: 0;
+        text-align: center;
+        display: block;
+        padding: 0px;
+    }
+    
+
 }

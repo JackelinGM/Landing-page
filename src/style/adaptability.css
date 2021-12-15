@@ -22,3 +22,17 @@
     font-family: 'Libre Franklin';
     font-size: 15px;
 }
+
+@media (min-width: 360px) and (max-width: 560px) {
+    .box-container-adapta {
+        flex-direction: column-reverse!important;
+    
+    }
+
+    .box-text-adapta{
+        text-align: center;
+    }
+    .box-container-four .box-container-adapta{
+        flex-direction: column-reverse !important;
+    }
+}

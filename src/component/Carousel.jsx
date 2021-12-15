@@ -47,10 +47,11 @@ const Carousel = () => {
             <div class="carousel-item m-3">
               <img
                 class="blockElement"
-                src="https://image.fitnesspass.pe/fit-in/160x160/filters:quality(80)/img/fitness-pass-v2/testimonials/larisse_v2.png"
+                src="https://image.fitnesspass.pe/fit-in/160x160/filters:quality(80)/img/fitness-pass-v2/testimonials/larisse_v2.png" alt=""
               />
               <h6>Con Fitness Pass encontré algo que realmente me acomoda</h6>
               <p>Larisse</p>
+              <hr/>
             </div>
           </div>
         </div>

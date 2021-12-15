@@ -9,7 +9,6 @@ import { MentalWellness } from './component/MentalWellness';
 import { Navbar } from './component/Navbar';
 import { Nutrition } from './component/Nutrition';
 import { OurPillars } from './component/OurPillars';
-import { Sports } from './component/Sports';
 import { SportsAccessories } from './component/SportsAccessories';
 import { VarietySports } from './component/VarietySports';
 
@@ -22,7 +21,6 @@ function App() {
     <OurPillars />
     <Adaptability />
     <VarietySports />
-    <Sports />
     <Nutrition />
     <MentalWellness />
     <SportsAccessories />
