@@ -1,59 +1,55 @@
-.button-login{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    border: 1px solid #09dae5 !important;
-    color: #09dae5;
-    margin-left: 11px;
-    width: 153px;
-    height: 43px;
-    margin-top: 10px;
-    border-radius: 2px;
-    padding: 18px;
+.button-login {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #09dae5 !important;
+  color: #09dae5;
+  margin-left: 11px;
+  width: 153px;
+  height: 43px;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding: 18px;
 }
 
-.button-register{
-    background-color: #09dae5 !important;
-    border: 1px solid #09dae5;
-    align-items:center;
-    color: white;
-    margin-left: 20px; 
-    width: 133px;
-    margin-right: 5px;
-    margin-top: 10px;
-    height: 44px;
-    border-radius: 2px;
+.button-register {
+  background-color: #09dae5 !important;
+  border: 1px solid #09dae5;
+  align-items: center;
+  color: white;
+  margin-left: 20px;
+  width: 133px;
+  margin-right: 5px;
+  margin-top: 10px;
+  height: 44px;
+  border-radius: 2px;
 }
 
 .nav-link {
-    font-size: 15px;
-    margin-left: 8px;
-    margin-top: 11px;
-    margin-right: 17px;
-    padding: 7px 12px;
-    
+  font-size: 15px;
+  margin-left: 8px;
+  margin-top: 11px;
+  margin-right: 17px;
+  padding: 7px 12px;
 }
 
-
-.nav-logo{
-    margin-top: -5px;
-    height: 29px;
-    margin-left: 92px;
-    width: 152px;
+.nav-logo {
+  margin-top: -5px;
+  height: 29px;
+  margin-left: 92px;
+  width: 152px;
 }
-
 
 @media (min-width: 360px) and (max-width: 560px) {
-    .nav-logo{
+  .nav-logo {
     margin-left: 0;
-    }
-    .button-login, .button-register{
-        width: auto;
-        margin: 0;
-        text-align: center;
-        display: block;
-        padding: 0px;
-    }
-    
-
+  }
+  .button-login,
+  .button-register {
+    width: auto;
+    margin: 0;
+    text-align: center;
+    display: block;
+    padding: 0px;
+  }
 }

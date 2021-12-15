@@ -1,6 +1,5 @@
 import React from "react";
-import "../style/carousel.css"
-
+import "../style/carousel.css";
 
 const Carousel = () => {
   return (
@@ -26,6 +25,7 @@ const Carousel = () => {
               <img
                 class="blockElement m-3"
                 src="https://image.fitnesspass.pe/fit-in/160x160/filters:quality(80)/img/fitness-pass-v2/testimonials/alejandra_v2.png"
+                alt=""
               />
               <h6>
                 Me encanta la libertad que Fitness Pass me da para programar mi
@@ -37,6 +37,7 @@ const Carousel = () => {
               <img
                 class="blockElement m-3"
                 src="https://image.fitnesspass.pe/fit-in/160x160/filters:quality(80)/img/fitness-pass-v2/testimonials/johan_v2.png"
+                alt=""
               />
               <h6>
                 Con Fitness Pass Hago mucho más ejercicio que antes, ya no me
@@ -47,56 +48,54 @@ const Carousel = () => {
             <div class="carousel-item m-3">
               <img
                 class="blockElement"
-                src="https://image.fitnesspass.pe/fit-in/160x160/filters:quality(80)/img/fitness-pass-v2/testimonials/larisse_v2.png" alt=""
+                src="https://image.fitnesspass.pe/fit-in/160x160/filters:quality(80)/img/fitness-pass-v2/testimonials/larisse_v2.png"
+                alt=""
               />
               <h6>Con Fitness Pass encontré algo que realmente me acomoda</h6>
               <p>Larisse</p>
-              <hr/>
+              <hr />
             </div>
           </div>
         </div>
       </section>
       <section class="content-ten">
-        <div
-          class="d-flex justify-content-evenly align-items-center flex-wrap m-3"
-        >
-          <img className="img-6"
-          
+        <div class="d-flex justify-content-evenly align-items-center flex-wrap m-3">
+          <img
+            className="img-6"
             src="https://image.fitnesspass.pe/filters:quality(60)/img/partners/clubelcomercio.png"
             alt="partner"
           />
-          <img className="img-7"
-            
+          <img
+            className="img-7"
             src="https://image.fitnesspass.pe/fit-in/300x200/filters:quality(60)/img/partners/BNPP_CARDIF_BL_N.jpg"
             alt="partner"
           />
-          <img className="img-9"
-            
+          <img
+            className="img-9"
             src="https://image.fitnesspass.pe/filters:quality(60)/img/partners/starup_peru_v4.png"
             alt="partner"
           />
-          <img className="img-7"
-            
+          <img
+            className="img-7"
             src="https://image.fitnesspass.pe/filters:quality(60)/img/partners/LVS_Logo.png"
             alt="partner"
           />
-          <img className="img-7"
-            
+          <img
+            className="img-7"
             src="https://image.fitnesspass.pe/fit-in/300x200/filters:quality(60)/img/partners/rimac.png"
             alt="partner"
           />
           <img
-            
             src="https://image.fitnesspass.pe/fit-in/300x200/filters:quality(60)/img/partners/UniversidaddeLima_v2.png"
             alt="partner"
           />
-          <img className="img-7"
-            
+          <img
+            className="img-7"
             src="https://image.fitnesspass.pe/fit-in/300x200/filters:quality(60):grayscale()/img/partners/endeavor.jpg"
             alt="partner"
           />
-          <img className="img-6"
-            
+          <img
+            className="img-6"
             src="https://image.fitnesspass.pe/fit-in/300x200/filters:quality(60)/img/partners/ministerio_v4.png"
             alt="partner"
           />

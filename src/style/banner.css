@@ -7,24 +7,23 @@
   background-size: cover;
 }
 .content-banner {
-    max-width: 1173px;
-    text-align: initial;
-    margin-top: 34px;
-    margin-left: 23px;
-    
-    width: 301px;
-    
-    
-    font-style: normal;
+  max-width: 1173px;
+  text-align: initial;
+  margin-top: 34px;
+  margin-left: 23px;
+
+  width: 301px;
+
+  font-style: normal;
 }
 .title {
-    text-align: left;
-    font-size: 43px;
-    line-height: 55px;
-    width: 102%;
-    
-    margin-top: 116px;
-    font-family: 'Libre Franklin';
+  text-align: left;
+  font-size: 43px;
+  line-height: 55px;
+  width: 102%;
+
+  margin-top: 116px;
+  font-family: "Libre Franklin";
 }
 
 .bold {
@@ -37,32 +36,29 @@ font-family: 'Libre Franklin', sans-serif;
 } */
 
 .subtitle-banner {
-    font-style: normal;
-    font-weight: 300;
-    /* font-size: 64px; */
-    line-height: 66px;
-    font-family:'Libre Franklin';
+  font-style: normal;
+  font-weight: 300;
+  /* font-size: 64px; */
+  line-height: 66px;
+  font-family: "Libre Franklin";
 }
 
-.content-subtitle{
-    
-  
+.content-subtitle {
   margin-right: -269px;
   font-size: 16px;
-  font-family: 'Libre Franklin';
+  font-family: "Libre Franklin";
   margin-top: 33px;
 }
 
-.subtitle-content{
-    
-    margin-top: -9px;
-    font-size: 15px;
-    margin-right: -261px;
-    width: 453px;
-    font-family:'Libre Franklin';
+.subtitle-content {
+  margin-top: -9px;
+  font-size: 15px;
+  margin-right: -261px;
+  width: 453px;
+  font-family: "Libre Franklin";
 }
 
-.button-individual{
+.button-individual {
   background: #09dae5;
   width: 199px;
   margin-top: 15px;
@@ -74,25 +70,24 @@ font-family: 'Libre Franklin', sans-serif;
   margin-right: 81px;
 }
 
-
-.button-corporate{
-    background: #09dae5;
-    margin-left: 20px;
-    width: 199px;
-    margin-top: 15px;
-    height: 47px;
-    color: white;
-    font-weight: bold;
-    margin-right: -285px;
-    border-radius: 3px;
-    border: 5px;
+.button-corporate {
+  background: #09dae5;
+  margin-left: 20px;
+  width: 199px;
+  margin-top: 15px;
+  height: 47px;
+  color: white;
+  font-weight: bold;
+  margin-right: -285px;
+  border-radius: 3px;
+  border: 5px;
 }
 
-.hr{
+.hr {
   width: 78vh;
   position: relative;
 }
 
-.button-general{
+.button-general {
   margin-top: 16px;
 }
